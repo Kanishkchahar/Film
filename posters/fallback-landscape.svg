@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 576" role="img" aria-label="Cinematic landscape placeholder">
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#32372f"/><stop offset=".58" stop-color="#171b19"/><stop offset="1" stop-color="#0d0f0e"/></linearGradient>
+    <linearGradient id="glow" x2="1" y2="1"><stop stop-color="#c66a53" stop-opacity=".72"/><stop offset="1" stop-color="#c66a53" stop-opacity="0"/></linearGradient>
+    <radialGradient id="lamp"><stop stop-color="#d5a36d" stop-opacity=".85"/><stop offset="1" stop-color="#d5a36d" stop-opacity="0"/></radialGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="26"/></filter>
+  </defs>
+  <rect width="1024" height="576" fill="url(#sky)"/>
+  <ellipse cx="710" cy="280" rx="260" ry="160" fill="url(#glow)" filter="url(#blur)"/>
+  <path d="M0 390 105 350 185 375 280 310 352 370 430 330 510 381 610 320 700 370 810 300 900 360 1024 315V576H0Z" fill="#171a18"/>
+  <path d="M0 465 95 435 185 455 258 410 345 465 432 425 512 460 620 410 718 462 823 405 925 445 1024 405V576H0Z" fill="#111412"/>
+  <g fill="#b9664e" opacity=".48"><path d="M106 393h12v23h-12zM136 385h11v28h-11zM274 354h13v24h-13zM302 357h11v21h-11zM463 376h12v24h-12zM654 364h12v25h-12zM841 342h13v28h-13zM888 356h12v21h-12z"/></g>
+  <circle cx="757" cy="218" r="110" fill="url(#lamp)"/>
+  <path d="M753 211 714 494M753 211l115 283" stroke="#c66a53" stroke-opacity=".2" stroke-width="2"/>
+  <path d="M0 504q170-24 310 0t315 0 399 0v72H0Z" fill="#0b0d0c"/>
+  <g fill="#080a09"><path d="M180 576c17-77 34-130 58-130s42 53 58 130z"/><circle cx="238" cy="427" r="23"/><path d="M721 576c15-60 29-102 49-102s35 42 49 102z"/><circle cx="770" cy="460" r="18"/></g>
+  <path d="M0 0h1024v576H0z" fill="none" stroke="#d7c2a4" stroke-opacity=".1" stroke-width="20"/>
+</svg>

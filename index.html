@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101311">
+  <title>Film</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg?v=5">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="Film home"><span class="brand-mark" lang="hi">फ़</span><span>Film</span></a>
+    <nav aria-label="Main navigation"><a class="active" href="#collection">COLLECTION</a></nav>
+  </header>
+
+  <main id="top">
+    <section class="collection" id="collection">
+      <div class="section-heading"><div><p class="eyebrow">THE ARCHIVE</p><h2>All films <span id="film-count">(01)</span></h2></div><div class="collection-tools"><label class="search"><span>⌕</span><input id="search" type="search" placeholder="Search titles" aria-label="Search films"></label><button class="sort-button" id="sort-button">Recently added <span>↕</span></button></div></div>
+      <div class="language-tabs" id="language-tabs" role="tablist" aria-label="Filter movies by language"></div>
+      <div class="film-grid" id="film-grid"></div>
+      <p class="empty-state" id="empty-state" hidden>No films found. Try another search.</p>
+    </section>
+
+  </main>
+
+  <footer><a class="brand footer-brand" href="#top"><span class="brand-mark" lang="hi">फ़</span><span>Film</span></a><span>A personal film archive</span><a href="#top">Back to top ↑</a></footer>
+
+  <dialog id="poster-dialog" class="poster-dialog"><button class="dialog-close" id="close-poster" aria-label="Close poster">×</button><img id="poster-preview" alt="Movie poster"></dialog>
+  <dialog id="detail-dialog" class="detail-dialog"><button class="dialog-close" id="close-detail" aria-label="Close trailer">×</button><div id="detail-content"></div></dialog>
+  <script src="script.js"></script>
+</body>
+</html>
