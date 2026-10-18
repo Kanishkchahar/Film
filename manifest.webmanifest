@@ -1,0 +1,24 @@
+{
+  "name": "Film — Personal Archive",
+  "short_name": "Film",
+  "description": "A quiet, warm shelf of films worth keeping.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#14100f",
+  "theme_color": "#14100f",
+  "icons": [
+    {
+      "src": "apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
